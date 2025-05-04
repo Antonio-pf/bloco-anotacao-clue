@@ -3,11 +3,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const gameData = {
     suspects: {
       "Coronel Mostarda": Array(6).fill(null),
-      "Professor Plum": Array(6).fill(null),
+      "Prof. Ameixa": Array(6).fill(null),
       "Sr. Green": Array(6).fill(null),
       "Sra. Peacock": Array(6).fill(null),
       "Srta. Scarlet": Array(6).fill(null),
-      "Dr. Orchid": Array(6).fill(null),
+      "Chefe White": Array(6).fill(null),
     },
     weapons: {
       Faca: Array(6).fill(null),
