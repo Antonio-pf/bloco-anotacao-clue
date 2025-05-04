@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "Sala de Jantar": Array(6).fill(null),
       Cozinha: Array(6).fill(null),
       "Sala de Música": Array(6).fill(null),
-      "Jardim de Inverno": Array(6).fill(null),
+      "Hall": Array(6).fill(null),
       "Salão de Jogos": Array(6).fill(null),
       Biblioteca: Array(6).fill(null),
       Escritório: Array(6).fill(null),

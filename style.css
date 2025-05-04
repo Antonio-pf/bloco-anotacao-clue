@@ -183,8 +183,19 @@
     overflow: hidden;
     text-overflow: ellipsis;
   }
+
+  .item-cell:first-child {
+    flex: 0 0 140px;        
+    min-width: 140px;      
+    white-space: nowrap;    
+    overflow: visible;      
+    text-overflow: clip;    
+    font-size: 13px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
   
-  /* Ajuste para garantir que as células de marcação mantenham o tamanho */
   .mark-cell {
     width: calc((100% - var(--item-width)) / 6);
     min-width: calc((100% - var(--item-width)) / 6);
@@ -196,7 +207,6 @@
     cursor: pointer;
   }
   
-  /* Ajuste para cores alternadas nas colunas */
   .mark-cell:nth-child(even) {
     background-color: var(--color-cell-1);
   }
