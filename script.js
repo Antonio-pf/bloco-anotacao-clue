@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
       Castiçal: Array(6).fill(null),
       Revólver: Array(6).fill(null),
       Corda: Array(6).fill(null),
-      "Cano de Chumbo": Array(6).fill(null),
+      "Cano": Array(6).fill(null),
       "Chave Inglesa": Array(6).fill(null),
     },
     rooms: {
