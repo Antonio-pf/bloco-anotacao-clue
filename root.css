@@ -1,0 +1,102 @@
+:root {
+    /* Tema Verde (padrão) */
+    --color-background: #000000;
+    --color-header: #134e4a;
+    --color-header-border: #115e59;
+    --color-text: #ffffff;
+    --color-accent: #5eead4;
+    --color-cell-1: #134e4a; /* Verde escuro */
+    --color-cell-2: #1e3a3a; /* Verde mais escuro/acinzentado */
+    --color-cell-border: #374151;
+    --color-section-header: #111827;
+    --color-check: #5eead4;
+    --color-negative: #ef4444;
+    --color-no-cheating: #134e4a;
+    --color-dropdown-bg: #1e3a3a;
+    --color-dropdown-hover: #115e59;
+    --color-modal-bg: #1e3a3a;
+    --color-button-primary: #134e4a;
+    --color-button-primary-hover: #115e59;
+    --color-button-secondary: #374151;
+    --color-button-secondary-hover: #4b5563;
+    --color-player-edit-bg: #1e3a3a;
+    --color-player-edit-focus: #115e59;
+  }
+  
+  /* Tema Rosa */
+  .theme-pink {
+    --color-header: #9d174d;
+    --color-header-border: #831843;
+    --color-accent: #fbcfe8;
+    --color-cell-1: #9d174d; /* Rosa escuro */
+    --color-cell-2: #831843; /* Rosa mais escuro */
+    --color-check: #fbcfe8;
+    --color-no-cheating: #9d174d;
+    --color-dropdown-bg: #831843;
+    --color-dropdown-hover: #9d174d;
+    --color-modal-bg: #831843;
+    --color-button-primary: #9d174d;
+    --color-button-primary-hover: #be185d;
+    --color-player-edit-bg: #831843;
+    --color-player-edit-focus: #9d174d;
+  }
+  
+  /* Tamanhos */
+  :root {
+    --header-height: 60px;
+    --cell-size: 40px;
+    --cell-size-small: 32px;
+    --item-width: 140px;
+    --item-width-small: 100px;
+    --border-radius: 0px;
+  
+    /* Fontes */
+    --font-size-title: 1.5rem;
+    --font-size-section: 1.25rem;
+    --font-size-item: 0.9rem;
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+  }
+  
+  /* Reset básico */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  /* Media queries para responsividade */
+  @media (max-width: 768px) {
+    :root {
+      --cell-size: 36px;
+      --cell-size-small: 28px;
+      --item-width: 100px;
+      --item-width-small: 80px;
+      --font-size-title: 1.25rem;
+      --font-size-section: 1.1rem;
+      --font-size-item: 0.8rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    :root {
+      --cell-size: 32px;
+      --cell-size-small: 24px;
+      --item-width: 80px;
+      --item-width-small: 70px;
+      --font-size-title: 1.1rem;
+      --font-size-section: 1rem;
+      --font-size-item: 0.75rem;
+    }
+  }
+  
