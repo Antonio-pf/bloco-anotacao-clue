@@ -134,6 +134,30 @@ document.addEventListener("DOMContentLoaded", () => {
     // Célula do item
     const itemCell = document.createElement("div")
     itemCell.className = "item-cell"
+
+    if (category === "suspects") {
+      itemCell.classList.add("suspect")
+      switch (item) {
+        case "C. Mostarda":
+          itemCell.classList.add("mostarda")
+          break
+        case "Prof. Ameixa":
+          itemCell.classList.add("ameixa")
+          break
+        case "Sr. Green":
+          itemCell.classList.add("green")
+          break
+        case "Sra. Pavão":
+          itemCell.classList.add("pavao")
+          break
+        case "Sra. Scarlet":
+          itemCell.classList.add("scarlet")
+          break
+        case "Chefe White":
+          itemCell.classList.add("white")
+          break
+      }
+    }
     itemCell.textContent = item
     itemCell.title = item // Adicionar tooltip para nomes longos
     row.appendChild(itemCell)

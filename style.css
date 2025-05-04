@@ -317,6 +317,31 @@
   .confirm-button:hover {
     background-color: var(--color-button-primary-hover);
   }
+
+  .item-cell.suspect {
+    font-weight: bold;
+  }
+  
+  /* Aplica a cor baseada na classe */
+  .item-cell.suspect.mostarda {
+    color: var(--color-mostarda);
+  }
+  .item-cell.suspect.ameixa {
+    color: var(--color-ameixa);
+  }
+  .item-cell.suspect.green {
+    color: var(--color-green);
+  }
+  .item-cell.suspect.pavao {
+    color: var(--color-pavao);
+  }
+  .item-cell.suspect.scarlet {
+    color: var(--color-scarlet);
+  }
+  .item-cell.suspect.white {
+    color: var(--color-white);
+  }
+  
   
   /* Responsividade */
   @media (max-width: 768px) {
