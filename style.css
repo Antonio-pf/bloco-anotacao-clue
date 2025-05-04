@@ -26,6 +26,7 @@
   .app-title {
     font-size: var(--font-size-title);
     font-weight: var(--font-weight-light);
+    font-weight: bold;
     color: var(--color-accent);
   }
   
@@ -347,7 +348,8 @@
     .item-cell {
       width: var(--item-width-small);
       min-width: var(--item-width-small);
-      padding: 6px;
+      padding: 1px 6px;
+      font-size: var(--font-size-item-mobile);
     }
   
     .mark-cell {

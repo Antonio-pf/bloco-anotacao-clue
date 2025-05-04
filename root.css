@@ -5,7 +5,8 @@
     --color-header-border: #115e59;
     --color-text: #ffffff;
     --color-accent: #5eead4;
-    --color-cell-1: #134e4a; /* Verde escuro */
+    /* --color-cell-1: #134e4a;  */
+    --color-cell-1: #092523;
     --color-cell-2: #0f3c39; /* Verde mais escuro (ajustado para ser mais escuro) */
     --color-cell-border: #374151;
     --color-section-header: #111827;
@@ -44,14 +45,15 @@
     --header-height: 60px;
     --cell-size: 40px;
     --cell-size-small: 32px;
-    --item-width: 140px;
+    --item-width: 200px;
     --item-width-small: 100px;
     --border-radius: 0px;
   
     /* Fontes */
     --font-size-title: 1.5rem;
-    --font-size-section: 1.25rem;
-    --font-size-item: 0.9rem;
+    --font-size-section: 1.65rem;
+    --font-size-item: 1.5rem;
+     /* --font-size-item: 1.5rem; */
     --font-weight-light: 300;
     --font-weight-normal: 400;
   }
@@ -91,10 +93,11 @@
       --cell-size: 32px;
       --cell-size-small: 24px;
       --item-width: 80px;
-      --item-width-small: 110px;
+      --item-width-small: 130px;
       --font-size-title: 1.1rem;
       --font-size-section: 1rem;
       --font-size-item: 0.75rem;
+      --font-size-item-mobile: 1rem
     }
   }
   
