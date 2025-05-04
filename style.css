@@ -28,6 +28,8 @@
     font-weight: var(--font-weight-light);
     font-weight: bold;
     color: var(--color-accent);
+    display: flex;
+    align-items: center;
   }
   
   .header-actions {
@@ -340,6 +342,58 @@
   }
   .item-cell.suspect.white {
     color: var(--color-white);
+  }
+  .title-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  
+  .app-title span {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .app-title span.zoom {
+    transform: scale(1.2);
+    color: #5C4033;
+  }
+  
+  .lupa-animada {
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: investigarTitulo 12s ease-in-out infinite;
+    z-index: 2;
+  }
+  
+  /* Movimento suave da lupa com subida/descida aleatória */
+  @keyframes investigarTitulo {
+    0%   { transform: translateX(0) translateY(0); }
+    10%  { transform: translateX(50px) translateY(-10px); }
+    20%  { transform: translateX(100px) translateY(5px); }
+    30%  { transform: translateX(150px) translateY(-15px); }
+    40%  { transform: translateX(200px) translateY(10px); }
+    50%  { transform: translateX(250px) translateY(0); }
+    60%  { transform: translateX(300px) translateY(-5px); }
+    70%  { transform: translateX(350px) translateY(8px); }
+    80%  { transform: translateX(400px) translateY(-3px); }
+    90%  { transform: translateX(450px) translateY(12px); }
+    100% { transform: translateX(500px) translateY(0); }
+  }
+  
+  /* Aplicar o zoom nas letras conforme a lupa passa */
+  @keyframes efeitoZoom {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.2);
+    }
+  }
+  
+  .lupa-animada:hover {
+    animation: none;
   }
   
   
