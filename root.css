@@ -1,12 +1,12 @@
 :root {
-    /* Tema Verde (padrão) */
+    
     --color-background: #000000;
     --color-header: #134e4a;
     --color-header-border: #115e59;
     --color-text: #ffffff;
     --color-accent: #5eead4;
-    --color-cell-1: #134e4a; /* Verde escuro */
-    --color-cell-2: #1e3a3a; /* Verde mais escuro/acinzentado */
+    --color-cell-1: #134e4a; 
+    --color-cell-2: #1e3a3a; 
     --color-cell-border: #374151;
     --color-section-header: #111827;
     --color-check: #5eead4;
@@ -23,13 +23,12 @@
     --color-player-edit-focus: #115e59;
   }
   
-  /* Tema Rosa */
   .theme-pink {
-    --color-header: #9d174d;
-    --color-header-border: #831843;
-    --color-accent: #fbcfe8;
-    --color-cell-1: #9d174d; /* Rosa escuro */
-    --color-cell-2: #831843; /* Rosa mais escuro */
+    --color-header: #9d4c7c;
+    --color-header-border: #8b3a6a; 
+    --color-accent: #f9d5e5; 
+    --color-cell-1: #9d4c7c; 
+    --color-cell-2: #7d3a62; 
     --color-check: #fbcfe8;
     --color-no-cheating: #9d174d;
     --color-dropdown-bg: #831843;
