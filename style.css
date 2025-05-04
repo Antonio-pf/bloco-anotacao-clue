@@ -175,13 +175,19 @@
   
   .item-cell {
     width: var(--item-width);
+    min-width: var(--item-width);
     padding: 8px;
     border: 1px solid var(--color-cell-border);
     font-size: var(--font-size-item);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   
+  /* Ajuste para garantir que as células de marcação mantenham o tamanho */
   .mark-cell {
     width: calc((100% - var(--item-width)) / 6);
+    min-width: calc((100% - var(--item-width)) / 6);
     height: var(--cell-size);
     border: 1px solid var(--color-cell-border);
     display: flex;
@@ -190,12 +196,12 @@
     cursor: pointer;
   }
   
-  /* Alternância de cores nas colunas */
-  .mark-cell:nth-child(odd) {
+  /* Ajuste para cores alternadas nas colunas */
+  .mark-cell:nth-child(even) {
     background-color: var(--color-cell-1);
   }
   
-  .mark-cell:nth-child(even) {
+  .mark-cell:nth-child(odd) {
     background-color: var(--color-cell-2);
   }
   
@@ -333,15 +339,18 @@
   
     .category-label {
       width: var(--item-width-small);
+      min-width: var(--item-width-small);
     }
   
     .item-cell {
       width: var(--item-width-small);
+      min-width: var(--item-width-small);
       padding: 6px;
     }
   
     .mark-cell {
       width: calc((100% - var(--item-width-small)) / 6);
+      min-width: calc((100% - var(--item-width-small)) / 6);
       height: var(--cell-size-small);
     }
   
