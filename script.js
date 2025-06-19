@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     suspects: {
       "C. Mostarda": Array(6).fill(null),
       "Prof. Ameixa": Array(6).fill(null),
-      "Sr. Green": Array(6).fill(null),
+      "Pref. Green": Array(6).fill(null),
       "Sra. Pavão": Array(6).fill(null),
       "Sra. Scarlet": Array(6).fill(null),
       "Chefe White": Array(6).fill(null),
