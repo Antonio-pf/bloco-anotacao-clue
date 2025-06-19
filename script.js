@@ -18,8 +18,8 @@ document.addEventListener("DOMContentLoaded", () => {
       "Chave Inglesa": Array(6).fill(null),
     },
     rooms: {
-      Salão: Array(6).fill(null),
-      "Sala de Estar": Array(6).fill(null),
+      "Salão de festas": Array(6).fill(null),
+      "Sala": Array(6).fill(null),
       "Sala de Jantar": Array(6).fill(null),
       Cozinha: Array(6).fill(null),
       "Sala de Música": Array(6).fill(null),
